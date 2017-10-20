@@ -6609,7 +6609,7 @@ padding-right: 2px;
 }
 
 .label-featured {
-  background-color: #77c720;
+  background-color: #d70506;
   color: #fff;
   padding: 4px 5px 3px;
   line-height: 10px;
@@ -6621,7 +6621,7 @@ padding-right: 2px;
 
 .label-status,
 .label-default {
-  background-color: #333333;
+  background-color: #004274;
 }
 
 .item-body .rating + h2 {
