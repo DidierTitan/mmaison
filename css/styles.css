@@ -260,8 +260,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #fff;
-  background-color:#004274 ! important;
-  border-color: #004274 ! important;
+  background-color:#d70506 ! important;
+  border-color: #d70506 ! important;
 }
 
 .btn-primary:focus,
@@ -3863,9 +3863,9 @@ h4 {
   border-color: #004274;
 }
 .header-section-4 .header-right .btn:hover, .header-section-4 .header-right .fave-load-more a:hover, .fave-load-more .header-section-4 .header-right a:hover, .header-section-4 .header-right .post-password-form input[type='submit']:hover, .post-password-form .header-section-4 .header-right input[type='submit']:hover {
-  background-color: #00aeef;
+  background-color: #004274;
   color: #fff;
-  border-color: #00aeef;
+  border-color: #004274;
 }
 .header-section-4 .header-right .user {
   line-height: 88px;

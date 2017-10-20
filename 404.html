@@ -19,7 +19,68 @@
     <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <div class="modal fade" id="pop-login" tabindex="-1" role="dialog">
+ <header id="header-section" class="header-section-4 nav-left hidden-sm hidden-xs" data-sticky="1">
+        <div class="container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/mamaison2.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="navi main-nav">
+                    <ul>
+                        <li><a href="index.html">à VENDRE</a>
+                            <ul class="sub-menu">
+                                <li><a href="home-splash.html">MAISON</a></li>
+                                <li><a href="home-splash.html">APPARTEMENT</a></li>
+                                <li><a href="#">PROPRIété COMMERCIALES</a></li>
+                                <li><a href="#">COMMERCIALES</a></li>
+                                <li><a href="#">TERRAINS</a></li>
+                            </ul>
+						</li>
+                            
+						<li><a href="index.html">à LOUER</a>
+                            <ul class="sub-menu">
+                                <li><a href="home-splash.html">MAISON</a></li>
+                                <li><a href="home-splash.html">APPARTEMENT</a></li>
+                                <li><a href="#">PROPRIété COMMERCIALES</a></li>
+                                <li><a href="#">COMMERCIALES</a></li>
+                                <li><a href="#">TERRAINS</a></li>
+                            </ul>
+						</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="user">
+                    <a href="#" data-toggle="modal" data-target="#pop-login">Se connecter / Créer un compte</a>
+                    <a href="add-new-property.html" class="btn btn-default btn-publish">Créer une liste</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-mobile visible-sm visible-xs">
+        <div class="container">
+            <!--start mobile nav-->
+            <div class="mobile-nav">
+                <span class="nav-trigger"><i class="fa fa-navicon"></i></span>
+                <div class="nav-dropdown main-nav-dropdown"></div>
+            </div>
+            <!--end mobile nav-->
+            <div class="header-logo">
+                <a href="index.html"><img src="images/mamaison2.png" alt="logo"></a>
+            </div>
+            <div class="header-user">
+                <div class="user">
+                    <a href="#" data-toggle="modal" data-target="#pop-login"><i class="fa fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end header section header v1-->
+
+    <!-- popup start -->
+    <div class="modal fade" id="pop-login" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
@@ -124,123 +185,8 @@
         </div>
     </div>
     <!-- popup end -->
-    
-    <!--start header section header v1-->
-    <header id="header-section" class="header-section nav-left hidden-sm hidden-xs" data-sticky="1">
-        <div class="container">
-            <div class="header-left">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="images/logo-houzez-white.png" alt="logo">
-                    </a>
-                </div>
-                <nav class="navi main-nav">
-                    <ul>
-                        <li><a href="index.html">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="home-splash.html">Homepage with Splash</a></li>
-                                <li><a href="home-splash.html">Parallax</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="home-parallax.html">Parallax Standard</a></li>
-                                        <li><a href="home-parallax-fullscreen.html">Parallax Fullscreen</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Sliders</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="home-property-slider.html">Property Slider</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Splash</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="splash-page.html">Splash Image</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Listing</a>
-                            <ul class="sub-menu">
-                                <li><a href="properties-list.html">List View</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="properties-list.html">List View Standerd</a></li>
-                                        <li><a href="properties-list-fullwidth.html">List View Fullwidth</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="properties-grid.html">Grid View</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="properties-grid.html">Grid View Standerd</a></li>
-                                        <li><a href="properties-grid-fullwidth.html">Grid View Fullwidth</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Property</a>
-                            <ul class="sub-menu">
-                                <li><a href="propertie-detail.html">Single Property v1</a></li>
-                                <li><a href="propertie-detail-v2.html">Single Property v2</a></li>
-                                <li><a href="propertie-detail-v3.html">Single Property v3</a></li>
-                                <li><a href="propertie-detail-multi-properties.html">Single Property With Multi Properties</a></li>
-                                <li><a href="propertie-detail-tabs.html">Single Property Tabs v1</a></li>
-                                <li><a href="propertie-detail-tabs-vertical.html">Single Property Tabs v2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="propertie-detail.html">Agent</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="agent-list.html">All Agents</a></li>
-                                        <li><a href="agent-detail.html">Agent Profile</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="company-profile.html">Company Profile</a></li>
-                                <li><a href="landing-page.html">Landing Page</a></li>
-                                <li><a href="headers.html">Houzez Headers</a></li>
-                                <li><a href="footer.html">Houzez Footers</a></li>
-                                <li><a href="search-bars.html">Houzez Search Bars</a></li>
-                                <li><a href="widgets.html">Houzez Widgets</a></li>
-                                <li><a href="404.html">404 Page</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="all-modules.html">Modules</a></li>
-                        <li><a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html">Default Blog</a></li>
-                                <li><a href="blog-post.html">Blog detail</a></li>
-                                <li><a href="blog-masonry.html">Blog masonry</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="header-right">
-                <div>
-                    <a href="#" data-toggle="modal" data-target="#pop-login">Sign in</a>
-                    <a href="add-new-property.html" class="btn btn-default hidden-xs hidden-sm">CREATE LIST</a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="header-mobile visible-sm visible-xs">
-        <div class="container">
-            <!--start mobile nav-->
-            <div class="mobile-nav">
-                <span class="nav-trigger"><i class="fa fa-navicon"></i></span>
-                <div class="nav-dropdown main-nav-dropdown"></div>
-            </div>
-            <!--end mobile nav-->
-            <div class="header-logo">
-                <a href="index.html"><img src="images/logo-houzez-white.png" alt="logo"></a>
-            </div>
-            <div class="header-user">
-                <div class="user">
-                    <a href="#" data-toggle="modal" data-target="#pop-login"><i class="fa fa-user"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--end header section header v1-->
-
-    <!--start advanced search section-->
-    <section class="advanced-search advance-search-header">
+	
+	<section class="advanced-search advance-search-header">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -403,7 +349,6 @@
             </div>
         </div>
     </section>
-    <!--end advanced search section-->
 
     <!--start advanced search section-->
     <section class="advanced-search-mobile visible-xs visible-sm">
@@ -533,7 +478,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <ol class="breadcrumb">
-                            <li><a href="index.html">Home</a></li><li class="active">Page</li>
+                            <li><a href="index.html">Accueil</a></li><li class="active">Page</li>
                         </ol>
                         <div class="page-title-left">
                             <h2>Page</h2>
@@ -547,9 +492,8 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="page-main">
                                 <div class="article-detail">
-                                    <h1>Oh oh! Page not found.</h1>
-                                    <p>We're sorry, but the page you are looking for doesn't exist.&lt;br&gt;
-                                        You can search your topic using the box below or return to the homepage.</p>
+                                    <h1>OOh oh! Page non trouvée.</h1>
+                                    <p>Nous sommes désolés, mais la page que vous recherchez n'existe pas. <br> Vous pouvez rechercher votre sujet en utilisant la boîte ci-dessus ou revenir à la page d'accueil.</p>
                                 </div>
                             </div>
                         </div>
