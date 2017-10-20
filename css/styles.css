@@ -260,8 +260,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #fff;
-  background-color: #00aeef;
-  border-color: #2e6da4;
+  background-color:#004274 ! important;
+  border-color: #004274 ! important;
 }
 
 .btn-primary:focus,
@@ -334,8 +334,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-secondary {
   color: #fff;
-  background-color: #ff6e00;
-  border-color: #ff6e00;
+  background-color: #d70506 ! important;
+  border-color: #d70506 ! important;
 }
 
 .btn-secondary:focus,
@@ -5523,8 +5523,8 @@ img {
   margin-right: -5px;
 }
 .banner-search-taber .advanced-search div[class*='col-'] {
-  padding-left: 5px;
-  padding-right: 5px;
+ padding-left: 0px;
+padding-right: 2px;
 }
 
 .banner-search-tabs {
