@@ -4381,7 +4381,7 @@ h1, h4, h2, h3, h4 {
 }
 
 a {
-  color: #00aeef;
+  color: #004274;
   text-decoration: none;
 }
 a:hover {
@@ -7021,7 +7021,7 @@ padding-right: 2px;
   border: none;
   background: none;
   text-transform: none;
-  color: #00aeef;
+  color:#004274;
   height: auto;
   padding-top: 0;
   padding-bottom: 0;
@@ -11229,7 +11229,7 @@ body.transparent-yes .banner-caption {
   border-radius: 0;
 }
 .pagination-main .pagination li.active a {
-  background-color: #00aeef;
+  background-color: #004274;
   color: #fff;
 }
 .pagination-main .pagination a {
