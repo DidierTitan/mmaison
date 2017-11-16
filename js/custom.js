@@ -302,12 +302,12 @@ var nice = false;
             max: 6000,
             values: [500, 6000],
             slide: function (event, ui) {
-                $("#min-size").val(ui.values[0] + "m3");
-                $("#max-size").val(ui.values[1] + " m4");
+                $("#min-size").val(ui.values[0] + "M²");
+                $("#max-size").val(ui.values[1] + " M²");
             }
         });
-        $("#min-size").val($("#slider-size").slider("values", 0) + " M5");
-        $("#max-size").val($("#slider-size").slider("values", 1) + " M6");
+        $("#min-size").val($("#slider-size").slider("values", 0) + " M²");
+        $("#max-size").val($("#slider-size").slider("values", 1) + " M²");
     }
 
     if($( ".price-range-advanced").length >0) {
