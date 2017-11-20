@@ -76,24 +76,7 @@
   src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-/**
- * Responsive mixin. The media breakpoints are as defined
- * in the twitter bootstrap framework:
- *
- * - phone
- * - tablet-portrait
- * - tablet-landscape-desktop
- * - large-desktop
- *
- * Additional parameters for tagetting retina and non-retina
- * devices
- *
- * - retina
- * - non-retina
- *
- * Moreover, a specific value in px can be passed which is
- * used to generate a max-width media query.
- */
+
 .btn, .fave-load-more a, .post-password-form input[type='submit'] {
   font-family: "Roboto", sans-serif;
   padding: 10px 15px;
@@ -9797,7 +9780,7 @@ body.transparent-yes .banner-caption {
 }
 @media (max-width: 767px) {
   .header-detail .label-wrap .label {
-    padding: 3px 6px;
+    padding: 3px 2px;
   }
 }
 @media (max-width: 767px) {
