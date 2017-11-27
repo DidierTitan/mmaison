@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Ma Maison / Agent-detail</title>
+    <title>Ma Maison / liste des  propriété</title>
     <!--Meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,7 +54,7 @@
             </div>
             <div class="header-right">
                 <div class="user">
-                    <a href="#" class="hidden"  data-toggle="modal" data-target="#pop-login">Se connecter / Créer un compte</a>
+                    <a href="#" data-toggle="modal" data-target="#pop-login">Se connecter / Créer un compte</a>
                     <a href="add-new-property.html" class="btn btn-default">Publier votre propriété</a>
                 </div>
             </div>
@@ -197,7 +197,7 @@
                         <div class="form-group search-long">
                             <div class="search">
                                 <div class="input-search input-icon">
-                                    <input class="form-control" type="text" placeholder="Enter an address, town, street, or zip">
+                                    <input class="form-control" type="text" placeholder="Entrez une adresse, une ville, une rue ou un zip">
                                 </div>
                                 <select name="location" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
                                     <option value="">Toutes les villes</option>
@@ -250,6 +250,7 @@
                                 <div class="col-sm-3 col-xs-6">
                                     <div class="form-group">
                                         <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Property Type">
+
                                             <option>Type de propriété 1</option>
                                             <option>Type de propriété 2</option>
                                             <option>Type de propriété 3</option>
@@ -385,7 +386,7 @@
                             </div>
                             <div class="single-search-inner single-search">
 
-                                <input type="text" class="form-control table-cell" name="search" placeholder="Chercher">
+                                <input type="text" class="form-control table-cell" name="search" placeholder="Search">
                             </div>
                             <div class="single-search-inner single-seach-btn">
                                 <button class="table-cell text-right" type="submit"><i class="fa fa-search"></i></button>
@@ -419,11 +420,11 @@
                                 <div class="col-sm-3 col-xs-6">
                                     <div class="form-group">
                                         <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Property Type">
-                                            <option>Caractéristique 1</option>
-                                            <option>Caractéristique 2</option>
-                                            <option>Caractéristique 3</option>
-                                            <option>Caractéristique 4</option>
-                                            <option>Caractéristique 5</option>
+                                            <option>Type de propriété 1</option>
+                                            <option>Type de propriété 2</option>
+                                            <option>Type de propriété 3</option>
+                                            <option>Type de propriété 4</option>
+                                            <option>Type de propriété 5</option>
                                         </select>
                                     </div>
                                 </div>
@@ -476,7 +477,7 @@
                                         <div class="range-text">
                                             <input type="hidden" class="min-price-range-hidden range-input" readonly >
                                             <input type="hidden" class="max-price-range-hidden range-input" readonly >
-                                            <p><span class="range-title">Price Range:</span> from <span class="min-price-range"></span> to <span class="max-price-range"></span></p>
+                                            <p><span class="range-title">Echantillon des prix:</span> de <span class="min-price-range"></span> à <span class="max-price-range"></span></p>
                                         </div>
                                         <div class="range-wrap">
                                             <div class="price-range-advanced"></div>
@@ -484,7 +485,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-xs-12">
-                                    <button type="submit" class="btn btn-secondary btn-block"><i class="fa fa-search pull-left"></i> Chercher</button>
+                                    <button type="submit" class="btn btn-secondary btn-block"><i class="fa fa-search pull-left"></i> Rechercher</button>
                                 </div>
                             </div>
                         </div>
@@ -494,71 +495,22 @@
         </div>
     </section>
     <!--end advanced search section-->
-	
-	<section id="section-body">
+
+    <!--start section page body-->
+    <section id="section-body">
         <div class="container">
             <div class="page-title breadcrumb-top">
                 <div class="row">
                     <div class="col-sm-12">
-                        <ol class="breadcrumb">
-                            <li><a href="#"><i class="fa fa-home"></i></a></li>
-                            <li class="active">Tous les agents</li>
-                        </ol>
+                        <ol class="breadcrumb"><li ><a href="/"><i class="fa fa-home"></i></a></li><li class="active">Liste simple - Affichage de la liste</li></ol>
                         <div class="page-title-left">
-                            <h2>Hasina Rakotoniaina</h2>
+                            <h2>Liste simple - Affichage de la liste</h2>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="profile-detail-block agent-detail">
-                        <div class="row">
-                            <div class="col-sm-4 col-xs-12">
-                                <div class="profile-image">
-                                    <img src="http://placehold.it/330x330" alt="Agent" width="330" height="330">
-                                    <div class="company-logo">
-                                        <img src="http://placehold.it/105x75" alt="Agent" width="105" height="75">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-8 col-xs-12">
-                                <div class="profile-description">
-                                    <h3>Hasina Rakotoniaina</h3>
-                                    <h4 class="position">Directeur exécutif chez Varotra Trano</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur incididunt ut labore et ipsum dolor sit amet consectetur incididunt ut labore et dolore magna aliqua adipisicing elit seddo eiusmod tem magna aliqua adipisicing.</p>
-                                    <ul class="profile-contact">
-                                        <li><span>BUREAU:</span> <a href="#">+261 22 444 888</a></li>
-                                        <li><span>MOBILE:</span> <a href="#">+261 032 22 233 06</a></li>
-                                        <li><span>FAX:</span> <a href="#">(+261 13 41 223</a></li>
-                                        <li class="email"><span>Email:</span> <a href="#">HasinaRakotoniaina@trustylabs.com</a></li>
-                                    </ul>
-                                    <ul class="profile-social">
-                                        <li><a href="#"><i class="fa fa-phone-square"></i></a></li>
-                                        <li><a href="#" class="btn-facebook"><i class="fa fa-facebook-square"></i></a></li>
-                                        <li><a href="#" class="btn-twitter"><i class="fa fa-twitter-square"></i></a></li>
-                                        <li><a href="#" class="btn-linkedin"><i class="fa fa-linkedin-square"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12 col-xs-12">
-                                <div class="form-small">
-                                    <h3>Contactez Hasina</h3>
-                                    <form>
-                                        <div class="form-group">
-                                            <input type="text" placeholder="Votre Nom" class="form-control">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" placeholder="Téléphone" class="form-control">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="email" placeholder="Adresse e-mail" class="form-control">
-                                        </div>
-                                        <div class="form-group">
-                                            <textarea placeholder="Salut Hasina, j'ai vu ton profil sur MaMaison et je voulais voir si tu pouvais m'aider." rows="3" class="form-control"></textarea>
-                                        </div>
-                                        <button class="btn btn-secondary btn-block">ENVOYER</button>
-                                    </form>
+                        <div class="page-title-right">
+                            <div class="view hidden-xs">
+                                <div class="table-cell">
+                                    <span class="view-btn btn-list active"><i class="fa fa-th-list"></i></span>
+                                    <span class="view-btn btn-grid"><i class="fa fa-th-large"></i></span>
                                 </div>
                             </div>
                         </div>
@@ -584,8 +536,8 @@
                                 </ul>
                             </div>
                             <div class="sort-tab table-cell text-right">
-                              Trier par:
-                                <select class="selectpicker bs-select-hidden" title="choisir" data-live-search-style="begins" data-live-search="true">
+                                Trier par:
+                                <select class="selectpicker bs-select-hidden" title="Choisir" data-live-search-style="begins" data-live-search="true">
                                     <option>Pertinence</option>
                                     <option>Pertinence</option>
                                     <option>Pertinence</option>
@@ -603,9 +555,13 @@
                                             <div class="figure-block">
                                                 <figure class="item-thumb">
                                                     <span class="label-featured label label-success">En vedette</span>
+                                                    <div class="label-wrap hide-on-list">
+                                                        <span class="label label-default">à vendre</span>
+                                                        <span class="label label-danger">Vendu</span>
+                                                    </div>
                                                     <div class="price hide-on-list">
-                                                        <h3> AR 350.000</h3>
-                                                        <p class="rant"> AR 21.000/mo</p>
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant"> AR 21,000/m²</p>
                                                     </div>
                                                     <a href="#">
                                                         <img src="http://placehold.it/364x244" alt="thumb">
@@ -621,8 +577,6 @@
                                                                 <div class="share_tooltip fade">
                                                                     <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
                                                                     <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
                                                                 </div>
                                                                 <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
                                                             </li>
@@ -640,35 +594,34 @@
 
                                             <div class="body-left table-cell">
                                                 <div class="info-row">
-                                                    <div class="rating">
-                                                        <span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 93.4%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span>
-                                                        </span>
-                                                        <span class="star-text-right">15 Evaluation</span>
+                                                    <div class="label-wrap hide-on-grid">
+                                                        <div class="label-status label label-default">A vendre</div>
+                                                        <span class="label label-danger">Vendu</span>
                                                     </div>
-                                                    <h2 class="property-title"><a href="#">Appartement</a></h2>
-                                                    <h4 class="property-location">7601 East Treasure Dr. Miami Beach, FL 33141</h4>
+                                                    <h2 class="property-title"><a href="#">Appartement </a></h2>
+                                                    <h4 class="property-location">Mahamasina</h4>
                                                 </div>
                                                 <div class="info-row amenities hide-on-grid">
                                                     <p>
                                                         <span>Lits: 3</span>
                                                         <span>Chambres: 2</span>
-                                                        <span>M <sup>2</sup> : 1,965</span>
+                                                        <span>M²: 1,965</span>
                                                     </p>
-                                                    <p>Maison Familiale</p>
+                                                    <p>Maison unifamiliale</p>
                                                 </div>
                                                 <div class="info-row date hide-on-grid">
                                                     <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
-                                                    <p><i class="fa fa-calendar"></i>2jours passés</p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant</p>
                                                 </div>
                                             </div>
                                             <div class="body-right table-cell hidden-gird-cell">
                                                 <div class="info-row price">
-                                                    <h3>AR 350.000</h3>
-                                                    <p class="rant">AR 21.000/mo</p>
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
                                                 </div>
                                                 <div class="info-row phone text-right">
-                                                    <a href="#" class="btn btn-primary">Detail<i class="fa fa-angle-right fa-right"></i></a>
-                                                    <p><a href="#">+1 (786) 225-0199</a></p>
+                                                    <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 34 265 96</a></p>
                                                 </div>
                                             </div>
                                             <div class="table-list full-width hide-on-list">
@@ -677,15 +630,15 @@
                                                         <p>
                                                             <span>Lits: 3</span>
                                                             <span>Chambres: 2</span>
-                                                            <span>M <sup>2</sup>: 1,965</span>
+                                                            <span>m²: 1,965</span>
                                                         </p>
-                                                        <p>Villa</p>
+                                                        <p>Maison unifamiliale</p>
                                                     </div>
                                                 </div>
                                                 <div class="cell">
                                                     <div class="phone">
-                                                        <a href="#" class="btn btn-primary">Detail<i class="fa fa-angle-right fa-right"></i></a>
-                                                        <p><a href="#">+1 (786) 225-0199</a></p>
+                                                        <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 245 26</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -693,10 +646,10 @@
                                     </div>
                                     <div class="item-foot date hide-on-list">
                                         <div class="item-foot-left">
-                                            <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
+                                            <p><i class="fa fa-user"></i> <a href="#">Jean David</a></p>
                                         </div>
                                         <div class="item-foot-right">
-                                            <p><i class="fa fa-calendar"></i>2 jours passés</p>
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
                                         </div>
                                     </div>
                                 </div>
@@ -706,9 +659,13 @@
                                             <div class="figure-block">
                                                 <figure class="item-thumb">
                                                     <span class="label-featured label label-success">En vedette</span>
+                                                    <div class="label-wrap hide-on-list">
+                                                        <span class="label label-default">à vendre</span>
+                                                        <span class="label label-danger">Vendu</span>
+                                                    </div>
                                                     <div class="price hide-on-list">
-                                                        <h3> AR 350.000</h3>
-                                                        <p class="rant"> AR 21.000/mo</p>
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant"> AR 21,000/m²</p>
                                                     </div>
                                                     <a href="#">
                                                         <img src="http://placehold.it/364x244" alt="thumb">
@@ -724,8 +681,6 @@
                                                                 <div class="share_tooltip fade">
                                                                     <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
                                                                     <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
                                                                 </div>
                                                                 <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
                                                             </li>
@@ -743,35 +698,34 @@
 
                                             <div class="body-left table-cell">
                                                 <div class="info-row">
-                                                    <div class="rating">
-                                                        <span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 93.4%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span>
-                                                        </span>
-                                                        <span class="star-text-right">15 Evaluation</span>
+                                                    <div class="label-wrap hide-on-grid">
+                                                        <div class="label-status label label-default">A vendre</div>
+                                                        <span class="label label-danger">Vendu</span>
                                                     </div>
-                                                    <h2 class="property-title"><a href="#">Appartement</a></h2>
-                                                    <h4 class="property-location">7601 East Treasure Dr. Miami Beach, FL 33141</h4>
+                                                    <h2 class="property-title"><a href="#">Appartement </a></h2>
+                                                    <h4 class="property-location">Mahamasina</h4>
                                                 </div>
                                                 <div class="info-row amenities hide-on-grid">
                                                     <p>
                                                         <span>Lits: 3</span>
                                                         <span>Chambres: 2</span>
-                                                        <span>M <sup>2</sup> : 1,965</span>
+                                                        <span>M²: 1,965</span>
                                                     </p>
-                                                    <p>Maison Familiale</p>
+                                                    <p>Maison unifamiliale</p>
                                                 </div>
                                                 <div class="info-row date hide-on-grid">
                                                     <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
-                                                    <p><i class="fa fa-calendar"></i>2jours passés</p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant</p>
                                                 </div>
                                             </div>
                                             <div class="body-right table-cell hidden-gird-cell">
                                                 <div class="info-row price">
-                                                    <h3>AR 350.000</h3>
-                                                    <p class="rant">AR 21.000/mo</p>
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
                                                 </div>
                                                 <div class="info-row phone text-right">
-                                                    <a href="#" class="btn btn-primary">Detail<i class="fa fa-angle-right fa-right"></i></a>
-                                                    <p><a href="#">+1 (786) 225-0199</a></p>
+                                                    <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 34 265 96</a></p>
                                                 </div>
                                             </div>
                                             <div class="table-list full-width hide-on-list">
@@ -780,15 +734,15 @@
                                                         <p>
                                                             <span>Lits: 3</span>
                                                             <span>Chambres: 2</span>
-                                                            <span>M <sup>2</sup>: 1,965</span>
+                                                            <span>m²: 1,965</span>
                                                         </p>
-                                                        <p>Villa</p>
+                                                        <p>Maison unifamiliale</p>
                                                     </div>
                                                 </div>
                                                 <div class="cell">
                                                     <div class="phone">
-                                                        <a href="#" class="btn btn-primary">Detail<i class="fa fa-angle-right fa-right"></i></a>
-                                                        <p><a href="#">+1 (786) 225-0199</a></p>
+                                                        <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 245 26</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -799,7 +753,7 @@
                                             <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
                                         </div>
                                         <div class="item-foot-right">
-                                            <p><i class="fa fa-calendar"></i>2 jours passés</p>
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
                                         </div>
                                     </div>
                                 </div>
@@ -809,9 +763,13 @@
                                             <div class="figure-block">
                                                 <figure class="item-thumb">
                                                     <span class="label-featured label label-success">En vedette</span>
+                                                    <div class="label-wrap hide-on-list">
+                                                        <span class="label label-default">à vendre</span>
+                                                        <span class="label label-danger">Vendu</span>
+                                                    </div>
                                                     <div class="price hide-on-list">
-                                                        <h3> AR 350.000</h3>
-                                                        <p class="rant"> AR 21.000/mo</p>
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant"> AR 21,000/m²</p>
                                                     </div>
                                                     <a href="#">
                                                         <img src="http://placehold.it/364x244" alt="thumb">
@@ -827,8 +785,6 @@
                                                                 <div class="share_tooltip fade">
                                                                     <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
                                                                     <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
                                                                 </div>
                                                                 <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
                                                             </li>
@@ -846,35 +802,34 @@
 
                                             <div class="body-left table-cell">
                                                 <div class="info-row">
-                                                    <div class="rating">
-                                                        <span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 93.4%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span>
-                                                        </span>
-                                                        <span class="star-text-right">15 Evaluation</span>
+                                                    <div class="label-wrap hide-on-grid">
+                                                        <div class="label-status label label-default">A vendre</div>
+                                                        <span class="label label-danger">Vendu</span>
                                                     </div>
-                                                    <h2 class="property-title"><a href="#">Appartement</a></h2>
-                                                    <h4 class="property-location">7601 East Treasure Dr. Miami Beach, FL 33141</h4>
+                                                    <h2 class="property-title"><a href="#">Appartement </a></h2>
+                                                    <h4 class="property-location">Mahamasina</h4>
                                                 </div>
                                                 <div class="info-row amenities hide-on-grid">
                                                     <p>
                                                         <span>Lits: 3</span>
                                                         <span>Chambres: 2</span>
-                                                        <span>M <sup>2</sup> : 1,965</span>
+                                                        <span>M²: 1,965</span>
                                                     </p>
-                                                    <p>Maison Familiale</p>
+                                                    <p>Maison unifamiliale</p>
                                                 </div>
                                                 <div class="info-row date hide-on-grid">
                                                     <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
-                                                    <p><i class="fa fa-calendar"></i>2jours passés</p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant</p>
                                                 </div>
                                             </div>
                                             <div class="body-right table-cell hidden-gird-cell">
                                                 <div class="info-row price">
-                                                    <h3>AR 350.000</h3>
-                                                    <p class="rant">AR 21.000/mo</p>
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
                                                 </div>
                                                 <div class="info-row phone text-right">
-                                                    <a href="#" class="btn btn-primary">Detail<i class="fa fa-angle-right fa-right"></i></a>
-                                                    <p><a href="#">+1 (786) 225-0199</a></p>
+                                                    <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 34 265 96</a></p>
                                                 </div>
                                             </div>
                                             <div class="table-list full-width hide-on-list">
@@ -883,15 +838,15 @@
                                                         <p>
                                                             <span>Lits: 3</span>
                                                             <span>Chambres: 2</span>
-                                                            <span>M <sup>2</sup>: 1,965</span>
+                                                            <span>m²: 1,965</span>
                                                         </p>
-                                                        <p>Villa</p>
+                                                        <p>Maison unifamiliale</p>
                                                     </div>
                                                 </div>
                                                 <div class="cell">
                                                     <div class="phone">
-                                                        <a href="#" class="btn btn-primary">Détail<i class="fa fa-angle-right fa-right"></i></a>
-                                                        <p><a href="#">+1 (786) 225-0199</a></p>
+                                                        <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 245 26</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -902,110 +857,7 @@
                                             <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
                                         </div>
                                         <div class="item-foot-right">
-                                            <p><i class="fa fa-calendar"></i>2 jours passés</p>
-                                        </div>
-                                    </div>
-                                </div>
-								
-								<div class="item-wrap">
-                                    <div class="property-item table-list">
-                                        <div class="table-cell">
-                                            <div class="figure-block">
-                                                <figure class="item-thumb">
-                                                    <span class="label-featured label label-success">En vedette</span>
-                                                    <div class="price hide-on-list">
-                                                        <h3> AR 350.000</h3>
-                                                        <p class="rant"> AR 21.000/mo</p>
-                                                    </div>
-                                                    <a href="#">
-                                                        <img src="http://placehold.it/364x244" alt="thumb">
-                                                    </a>
-                                                    <figcaption class="thumb-caption cap-actions clearfix">
-                                                        <ul class="list-unstyled actions pull-right">
-                                                            <li>
-                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
-                                                                    <i class="fa fa-heart"></i>
-                                                                </span>
-                                                            </li>
-                                                            <li class="share-btn">
-                                                                <div class="share_tooltip fade">
-                                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
-                                                                </div>
-                                                                <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
-                                                            </li>
-                                                            <li>
-                                                                <span data-toggle="tooltip" data-placement="top" title="Photos (12)">
-                                                                    <i class="fa fa-camera"></i> <!--<span class="count">(12)</span>-->
-                                                                </span>
-                                                            </li>
-                                                        </ul>
-                                                    </figcaption>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                        <div class="item-body table-cell">
-                                            <div class="body-left table-cell">
-                                                <div class="info-row">
-                                                    <div class="rating">
-                                                        <span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 93.4%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span>
-                                                        </span>
-                                                        <span class="star-text-right">15 Evaluation</span>
-                                                    </div>
-                                                    <h2 class="property-title"><a href="#">Appartement</a></h2>
-                                                    <h4 class="property-location">7601 East Treasure Dr. Miami Beach, FL 33141</h4>
-                                                </div>
-                                                <div class="info-row amenities hide-on-grid">
-                                                    <p>
-                                                        <span>Lits: 3</span>
-                                                        <span>Chambres: 2</span>
-                                                        <span>M <sup>2</sup> : 1,965</span>
-                                                    </p>
-                                                    <p>Maison Familiale</p>
-                                                </div>
-                                                <div class="info-row date hide-on-grid">
-                                                    <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
-                                                    <p><i class="fa fa-calendar"></i>2jours passés</p>
-                                                </div>
-                                            </div>
-                                            <div class="body-right table-cell hidden-gird-cell">
-                                                <div class="info-row price">
-                                                    <h3>AR 350.000</h3>
-                                                    <p class="rant">AR 21.000/mo</p>
-                                                </div>
-                                                <div class="info-row phone text-right">
-                                                    <a href="#" class="btn btn-primary">Détail<i class="fa fa-angle-right fa-right"></i></a>
-                                                    <p><a href="#">+1 (786) 225-0199</a></p>
-                                                </div>
-                                            </div>
-                                            <div class="table-list full-width hide-on-list">
-                                                <div class="cell">
-                                                    <div class="info-row amenities">
-                                                        <p>
-                                                            <span>Lits: 3</span>
-                                                            <span>Chambres: 2</span>
-                                                            <span>M <sup>2</sup>: 1,965</span>
-                                                        </p>
-                                                        <p>Villa</p>
-                                                    </div>
-                                                </div>
-                                                <div class="cell">
-                                                    <div class="phone">
-                                                        <a href="#" class="btn btn-primary">Détail<i class="fa fa-angle-right fa-right"></i></a>
-                                                        <p><a href="#">+1 (786) 225-0199</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-foot date hide-on-list">
-                                        <div class="item-foot-left">
-                                            <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
-                                        </div>
-                                        <div class="item-foot-right">
-                                            <p><i class="fa fa-calendar"></i>2 jours passés</p>
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1025,13 +877,18 @@
                                                 <figure class="item-thumb">
                                                     <span class="label-featured label label-success">En vedette</span>
                                                     <div class="price hide-on-list">
-                                                        <h3> AR 350.000</h3>
-                                                        <p class="rant"> AR 21.000/mo</p>
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant">AR 21,000/m²</p>
                                                     </div>
                                                     <a href="#">
                                                         <img src="http://placehold.it/364x244" alt="thumb">
                                                     </a>
                                                     <figcaption class="thumb-caption cap-actions clearfix">
+                                                        <div class="pull-left hidden-xs">
+                                                            <span data-toggle="tooltip" data-placement="top" title="Photos">
+                                                                <i class="fa fa-camera"></i> <span class="count">(12)</span>
+                                                            </span>
+                                                        </div>
                                                         <ul class="list-unstyled actions pull-right">
                                                             <li>
                                                                 <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
@@ -1042,15 +899,8 @@
                                                                 <div class="share_tooltip fade">
                                                                     <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
                                                                     <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
                                                                 </div>
                                                                 <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
-                                                            </li>
-                                                            <li>
-                                                                <span data-toggle="tooltip" data-placement="top" title="Photos (12)">
-                                                                    <i class="fa fa-camera"></i> <!--<span class="count">(12)</span>-->
-                                                                </span>
                                                             </li>
                                                         </ul>
                                                     </figcaption>
@@ -1058,37 +908,43 @@
                                             </div>
                                         </div>
                                         <div class="item-body table-cell">
+
                                             <div class="body-left table-cell">
                                                 <div class="info-row">
                                                     <div class="rating">
-                                                        <span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 93.4%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span>
+                                                        <span class="stars">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star-o"></i>
                                                         </span>
-                                                        <span class="star-text-right">15 Evaluation</span>
+                                                        <span>15 Votes</span>
                                                     </div>
                                                     <h2 class="property-title"><a href="#">Appartement</a></h2>
-                                                    <h4 class="property-location">7601 East Treasure Dr. Miami Beach, FL 33141</h4>
+                                                    <h4 class="property-location">Mahamasina</h4>
                                                 </div>
                                                 <div class="info-row amenities hide-on-grid">
                                                     <p>
                                                         <span>Lits: 3</span>
                                                         <span>Chambres: 2</span>
-                                                        <span>M <sup>2</sup> : 1,965</span>
+                                                        <span>m²: 1,965</span>
                                                     </p>
-                                                    <p>Maison Familiale</p>
+                                                    <p>Maison unifamiliale</p>
                                                 </div>
                                                 <div class="info-row date hide-on-grid">
                                                     <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
-                                                    <p><i class="fa fa-calendar"></i>2jours passés</p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant </p>
                                                 </div>
                                             </div>
                                             <div class="body-right table-cell hidden-gird-cell">
                                                 <div class="info-row price">
-                                                    <h3>AR 350.000</h3>
-                                                    <p class="rant">AR 21.000/mo</p>
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
                                                 </div>
                                                 <div class="info-row phone text-right">
-                                                    <a href="#" class="btn btn-primary">Détail<i class="fa fa-angle-right fa-right"></i></a>
-                                                    <p><a href="#">+1 (786) 225-0199</a></p>
+                                                    <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 33 21 458 66</a></p>
                                                 </div>
                                             </div>
                                             <div class="table-list full-width hide-on-list">
@@ -1097,15 +953,15 @@
                                                         <p>
                                                             <span>Lits: 3</span>
                                                             <span>Chambres: 2</span>
-                                                            <span>M <sup>2</sup>: 1,965</span>
+                                                            <span>M²: 1,965</span>
                                                         </p>
-                                                        <p>Villa</p>
+                                                        <p>Maison unifamiliale</p>
                                                     </div>
                                                 </div>
                                                 <div class="cell">
                                                     <div class="phone">
-                                                        <a href="#" class="btn btn-primary">Détail<i class="fa fa-angle-right fa-right"></i></a>
-                                                        <p><a href="#">+1 (786) 225-0199</a></p>
+                                                        <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 256 31</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1116,10 +972,11 @@
                                             <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
                                         </div>
                                         <div class="item-foot-right">
-                                            <p><i class="fa fa-calendar"></i>2 jours passés</p>
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
                                         </div>
                                     </div>
                                 </div>
+								
                                 <div class="item-wrap">
                                     <div class="property-item table-list">
                                         <div class="table-cell">
@@ -1127,13 +984,18 @@
                                                 <figure class="item-thumb">
                                                     <span class="label-featured label label-success">En vedette</span>
                                                     <div class="price hide-on-list">
-                                                        <h3> AR 350.000</h3>
-                                                        <p class="rant"> AR 21.000/mo</p>
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant">AR 21,000/m²</p>
                                                     </div>
                                                     <a href="#">
                                                         <img src="http://placehold.it/364x244" alt="thumb">
                                                     </a>
                                                     <figcaption class="thumb-caption cap-actions clearfix">
+                                                        <div class="pull-left hidden-xs">
+                                                            <span data-toggle="tooltip" data-placement="top" title="Photos">
+                                                                <i class="fa fa-camera"></i> <span class="count">(12)</span>
+                                                            </span>
+                                                        </div>
                                                         <ul class="list-unstyled actions pull-right">
                                                             <li>
                                                                 <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
@@ -1144,15 +1006,8 @@
                                                                 <div class="share_tooltip fade">
                                                                     <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
                                                                     <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
-                                                                    <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
                                                                 </div>
                                                                 <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
-                                                            </li>
-                                                            <li>
-                                                                <span data-toggle="tooltip" data-placement="top" title="Photos (12)">
-                                                                    <i class="fa fa-camera"></i> <!--<span class="count">(12)</span>-->
-                                                                </span>
                                                             </li>
                                                         </ul>
                                                     </figcaption>
@@ -1160,37 +1015,43 @@
                                             </div>
                                         </div>
                                         <div class="item-body table-cell">
+
                                             <div class="body-left table-cell">
                                                 <div class="info-row">
                                                     <div class="rating">
-                                                        <span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 93.4%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span>
+                                                        <span class="stars">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star-o"></i>
                                                         </span>
-                                                        <span class="star-text-right">15 Evaluation</span>
+                                                        <span>15 Votes</span>
                                                     </div>
                                                     <h2 class="property-title"><a href="#">Appartement</a></h2>
-                                                    <h4 class="property-location">7601 East Treasure Dr. Miami Beach, FL 33141</h4>
+                                                    <h4 class="property-location">Mahamasina</h4>
                                                 </div>
                                                 <div class="info-row amenities hide-on-grid">
                                                     <p>
                                                         <span>Lits: 3</span>
                                                         <span>Chambres: 2</span>
-                                                        <span>M <sup>2</sup> : 1,965</span>
+                                                        <span>m²: 1,965</span>
                                                     </p>
-                                                    <p>Maison Familiale</p>
+                                                    <p>Maison unifamiliale</p>
                                                 </div>
                                                 <div class="info-row date hide-on-grid">
                                                     <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
-                                                    <p><i class="fa fa-calendar"></i>2jours passés</p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant </p>
                                                 </div>
                                             </div>
                                             <div class="body-right table-cell hidden-gird-cell">
                                                 <div class="info-row price">
-                                                    <h3>AR 350.000</h3>
-                                                    <p class="rant">AR 21.000/mo</p>
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
                                                 </div>
                                                 <div class="info-row phone text-right">
-                                                    <a href="#" class="btn btn-primary">Detail<i class="fa fa-angle-right fa-right"></i></a>
-                                                    <p><a href="#">+1 (786) 225-0199</a></p>
+                                                    <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 33 21 458 66</a></p>
                                                 </div>
                                             </div>
                                             <div class="table-list full-width hide-on-list">
@@ -1199,15 +1060,15 @@
                                                         <p>
                                                             <span>Lits: 3</span>
                                                             <span>Chambres: 2</span>
-                                                            <span>M <sup>2</sup>: 1,965</span>
+                                                            <span>M²: 1,965</span>
                                                         </p>
-                                                        <p>Villa</p>
+                                                        <p>Maison unifamiliale</p>
                                                     </div>
                                                 </div>
                                                 <div class="cell">
                                                     <div class="phone">
-                                                        <a href="#" class="btn btn-primary">Détail<i class="fa fa-angle-right fa-right"></i></a>
-                                                        <p><a href="#">+1 (786) 225-0199</a></p>
+                                                        <a href="#" class="btn btn-primary">Details <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 256 31</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1218,10 +1079,11 @@
                                             <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
                                         </div>
                                         <div class="item-foot-right">
-                                            <p><i class="fa fa-calendar"></i>2 jours passés</p>
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
                                         </div>
                                     </div>
                                 </div>
+								
                                 <div class="item-wrap">
                                     <div class="property-item table-list">
                                         <div class="table-cell">
@@ -1229,13 +1091,18 @@
                                                 <figure class="item-thumb">
                                                     <span class="label-featured label label-success">En vedette</span>
                                                     <div class="price hide-on-list">
-                                                        <h3> AR 350.000</h3>
-                                                        <p class="rant"> AR 21.000/mo</p>
+                                                        <h3> AR 350,000</h3>
+                                                        <p class="rant">AR 21,000/m²</p>
                                                     </div>
                                                     <a href="#">
                                                         <img src="http://placehold.it/364x244" alt="thumb">
                                                     </a>
                                                     <figcaption class="thumb-caption cap-actions clearfix">
+                                                        <div class="pull-left hidden-xs">
+                                                            <span data-toggle="tooltip" data-placement="top" title="Photos">
+                                                                <i class="fa fa-camera"></i> <span class="count">(12)</span>
+                                                            </span>
+                                                        </div>
                                                         <ul class="list-unstyled actions pull-right">
                                                             <li>
                                                                 <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
@@ -1251,48 +1118,49 @@
                                                                 </div>
                                                                 <span title="" data-placement="top" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
                                                             </li>
-                                                            <li>
-                                                                <span data-toggle="tooltip" data-placement="top" title="Photos (12)">
-                                                                    <i class="fa fa-camera"></i> <!--<span class="count">(12)</span>-->
-                                                                </span>
-                                                            </li>
                                                         </ul>
                                                     </figcaption>
                                                 </figure>
                                             </div>
                                         </div>
                                         <div class="item-body table-cell">
+
                                             <div class="body-left table-cell">
                                                 <div class="info-row">
                                                     <div class="rating">
-                                                        <span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 93.4%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span>
+                                                        <span class="stars">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star-o"></i>
                                                         </span>
-                                                        <span class="star-text-right">15 Evaluation</span>
+                                                        <span>15 Votes</span>
                                                     </div>
                                                     <h2 class="property-title"><a href="#">Appartement</a></h2>
-                                                    <h4 class="property-location">7601 East Treasure Dr. Miami Beach, FL 33141</h4>
+                                                    <h4 class="property-location">Mahamasina</h4>
                                                 </div>
                                                 <div class="info-row amenities hide-on-grid">
                                                     <p>
                                                         <span>Lits: 3</span>
                                                         <span>Chambres: 2</span>
-                                                        <span>M <sup>2</sup> : 1,965</span>
+                                                        <span>m²: 1,965</span>
                                                     </p>
-                                                    <p>Maison Familiale</p>
+                                                    <p>Maison unifamiliale</p>
                                                 </div>
                                                 <div class="info-row date hide-on-grid">
                                                     <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
-                                                    <p><i class="fa fa-calendar"></i>2jours passés</p>
+                                                    <p><i class="fa fa-calendar"></i> 12 jours avant </p>
                                                 </div>
                                             </div>
                                             <div class="body-right table-cell hidden-gird-cell">
                                                 <div class="info-row price">
-                                                    <h3>AR 350.000</h3>
-                                                    <p class="rant">AR 21.000/mo</p>
+                                                    <h3> AR 350,000</h3>
+                                                    <p class="rant"> AR 21,000/m²</p>
                                                 </div>
                                                 <div class="info-row phone text-right">
-                                                    <a href="#" class="btn btn-primary">Détail<i class="fa fa-angle-right fa-right"></i></a>
-                                                    <p><a href="#">+1 (786) 225-0199</a></p>
+                                                    <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                    <p><a href="#">+261 33 21 458 66</a></p>
                                                 </div>
                                             </div>
                                             <div class="table-list full-width hide-on-list">
@@ -1301,15 +1169,15 @@
                                                         <p>
                                                             <span>Lits: 3</span>
                                                             <span>Chambres: 2</span>
-                                                            <span>M <sup>2</sup>: 1,965</span>
+                                                            <span>M²: 1,965</span>
                                                         </p>
-                                                        <p>Villa</p>
+                                                        <p>Maison unifamiliale</p>
                                                     </div>
                                                 </div>
                                                 <div class="cell">
                                                     <div class="phone">
-                                                        <a href="#" class="btn btn-primary">Détail<i class="fa fa-angle-right fa-right"></i></a>
-                                                        <p><a href="#">+1 (786) 225-0199</a></p>
+                                                        <a href="#" class="btn btn-primary">Détails <i class="fa fa-angle-right fa-right"></i></a>
+                                                        <p><a href="#">+261 33 256 31</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1320,7 +1188,7 @@
                                             <p><i class="fa fa-user"></i> <a href="#">Elite Ocean View Realty LLC</a></p>
                                         </div>
                                         <div class="item-foot-right">
-                                            <p><i class="fa fa-calendar"></i>2 jours passés</p>
+                                            <p><i class="fa fa-calendar"></i> 12 jours avant </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1352,7 +1220,7 @@
                             <div class="widget-body">
                                 <form>
                                     <div class="range-block">
-                                        <h4>Échelle des prix</h4>
+                                        <h4>Échelle des prix:</h4>
                                         <div id="slider-price"></div>
                                         <div class="clearfix range-text">
                                             <input type="text" class="pull-left range-input text-left" id="min-price" readonly >
@@ -1360,7 +1228,7 @@
                                         </div>
                                     </div>
                                     <div class="range-block">
-                                        <h4>Taille (M<sup>2</sup>)</h4>
+                                        <h4>Taille de la zone</h4>
                                         <div id="slider-size"></div>
                                         <div class="clearfix range-text">
                                             <input type="text" class="pull-left range-input text-left" id="min-size" readonly >
@@ -1371,12 +1239,12 @@
                                         <div class="row">
                                             <div class="col-sm-12 col-xs-12">
                                                 <div class="form-group">
-                                                    <input class="form-control" name="keyword" placeholder="Chercher" type="text">
+                                                    <input class="form-control" name="keyword" placeholder="rechercher" type="text">
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-xs-12">
                                                 <div class="form-group">
-                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="propriété Type">
+                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="Type de propriété">
                                                         <option>Type de propriété 1</option>
                                                         <option>Type de propriété 2</option>
                                                         <option>Type de propriété 3</option>
@@ -1387,7 +1255,18 @@
                                             </div>
                                             <div class="col-sm-6 col-xs-12">
                                                 <div class="form-group">
-                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="lits">
+                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="Lits">
+                                                        <option>Des lits 1</option>
+                                                        <option>Des lits 2</option>
+                                                        <option>Des lits 3</option>
+                                                        <option>Des lits 4</option>
+                                                        <option>Des lits 5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="salle">
                                                         <option>lits 1</option>
                                                         <option>lits 2</option>
                                                         <option>lits 3</option>
@@ -1396,20 +1275,9 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6 col-xs-12">
-                                                <div class="form-group">
-                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="chambre">
-                                                        <option>chambre 1</option>
-                                                        <option>chambre 2</option>
-                                                        <option>chambre 3</option>
-                                                        <option>chambre 4</option>
-                                                        <option>chambre 5</option>
-                                                    </select>
-                                                </div>
-                                            </div>
                                             <div class="col-sm-12 col-xs-12">
                                                 <div class="form-group">
-                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="propriété type">
+                                                    <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="Type de propriété">
                                                         <option>Type 1</option>
                                                         <option>Type 2</option>
                                                         <option>Type 3</option>
@@ -1421,16 +1289,16 @@
                                             <div class="col-sm-12 col-xs-12">
                                                 <div class="form-group">
                                                     <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="Status">
-                                                        <option>Status 1</option>
-                                                        <option>Status 2</option>
-                                                        <option>Status 3</option>
-                                                        <option>Status 4</option>
-                                                        <option>Status 5</option>
+                                                        <option>Statu 1</option>
+                                                        <option>Statu 2</option>
+                                                        <option>Statu 3</option>
+                                                        <option>Statu 4</option>
+                                                        <option>Statu 5</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-xs-12">
-                                                <button type="submit" class="btn btn-secondary btn-block">Chercher</button>
+                                                <button type="submit" class="btn btn-secondary btn-block"> Chercher</button>
                                             </div>
                                         </div>
                                     </div>
@@ -1444,12 +1312,12 @@
                             <div class="widget-body">
                                 <div class="figure-block">
                                     <figure class="item-thumb">
-                                        <span class="label-featured label label-success">en vedette</span>
+                                        <span class="label-featured label label-success">vedette</span>
                                         <a class="hover-effect" href="#">
                                             <img src="http://placehold.it/290x194" width="290" height="194" alt="thumb">
                                         </a>
                                         <figcaption class="thumb-caption clearfix">
-                                            <div class="cap-price pull-left"> AR 350.000</div>
+                                            <div class="cap-price pull-left">AR 350,000</div>
 
                                             <ul class="list-unstyled actions pull-right">
                                                 <li>
@@ -1463,12 +1331,12 @@
                                 </div>
                                 <div class="figure-block">
                                     <figure class="item-thumb">
-                                        <span class="label-featured label label-success">en vedette</span>
+                                        <span class="label-featured label label-success">vedette</span>
                                         <a class="hover-effect" href="#">
                                             <img src="http://placehold.it/290x194" width="290" height="194" alt="thumb">
                                         </a>
                                         <figcaption class="thumb-caption clearfix">
-                                            <div class="cap-price pull-left"> AR 350.000</div>
+                                            <div class="cap-price pull-left"> AR 350,000</div>
 
                                             <ul class="list-unstyled actions pull-right">
                                                 <li>
@@ -1484,19 +1352,19 @@
                         </div>
                         <div class="widget widget-slider">
                             <div class="widget-top">
-                                <h3 class="widget-title">Propriétés</h3>
+                                <h3 class="widget-title">Slider Propriétés en vedette</h3>
                             </div>
                             <div class="widget-body">
                                 <div class="property-widget-slider">
                                     <div class="item">
                                         <div class="figure-block">
                                             <figure class="item-thumb">
-                                                <span class="label-featured label label-success">en vedette</span>
+                                                <span class="label-featured label label-success">vedette</span>
                                                 <a href="#" class="hover-effect">
                                                     <img src="http://placehold.it/370x202" alt="thumb">
                                                 </a>
                                                 <figcaption class="thumb-caption">
-                                                    <div class="cap-price pull-left"> AR 350.000</div>
+                                                    <div class="cap-price pull-left">AR 350,000</div>
                                                     <ul class="list-unstyled actions pull-right">
                                                         <li>
                                                     <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
@@ -1520,12 +1388,12 @@
                                     <div class="item">
                                         <div class="figure-block">
                                             <figure class="item-thumb">
-                                                <span class="label-featured label label-success"> en vedette</span>
+                                                <span class="label-featured label label-success">En vedette</span>
                                                 <a href="#" class="hover-effect">
                                                     <img src="http://placehold.it/370x202" alt="thumb">
                                                 </a>
                                                 <figcaption class="thumb-caption">
-                                                    <div class="cap-price pull-left"> AR 350.000</div>
+                                                    <div class="cap-price pull-left"> AR 350,000</div>
                                                     <ul class="list-unstyled actions pull-right">
                                                         <li>
                                                     <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Favorite">
@@ -1573,11 +1441,11 @@
                                         </figure>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
-                                        <h4>Ar 350.000</h4>
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
+                                        <h4> AR 350,000</h4>
                                         <div class="amenities">
-                                            <p>3 lits • 2 chambres • 1,238 M <sup>2</sup></p>
-                                            <p>Villa</p>
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1599,12 +1467,12 @@
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div class="media-body">
-                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
-                                        <h4>Ar 350.000</h4>
+                                     <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
+                                        <h4> AR 350,000</h4>
                                         <div class="amenities">
-                                            <p>3 lits • 2 chambres • 1,238 M <sup>2</sup></p>
-                                            <p>Villa</p>
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1626,12 +1494,12 @@
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div class="media-body">
-                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
-                                        <h4>Ar 350.000</h4>
+                                     <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
+                                        <h4> AR 350,000</h4>
                                         <div class="amenities">
-                                            <p>3 lits • 2 chambres • 1,238 M <sup>2</sup></p>
-                                            <p>Villa</p>
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1661,13 +1529,13 @@
                                         </figure>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
                                         <div class="rating">
-                                            <span class="star-text-left"> AR 350.000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                            <span class="star-text-left"> AR 350,000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
                                         </div>
                                         <div class="amenities">
-                                            <p>3 lits • 2 chambre • 1,238 M <sup>2</sup></p>
-                                            <p>Villa</p>
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1690,13 +1558,13 @@
                                         </figure>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
                                         <div class="rating">
-                                            <span class="star-text-left">$ AR 350.000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                            <span class="star-text-left"> AR 350,000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
                                         </div>
                                         <div class="amenities">
-                                            <p>3 lits • 2 chambre • 1,238 M <sup>2</sup></p>
-                                            <p>Villa</p>
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1719,13 +1587,13 @@
                                         </figure>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading"><a href="#">Appartement Oceanview</a></h3>
+                                        <h3 class="media-heading"><a href="#">Appartement</a></h3>
                                         <div class="rating">
-                                            <span class="star-text-left"> AR 350.000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                            <span class="star-text-left"> AR 350,000</span><span data-title="Average Rate: 4.67 / 5" class="bottom-ratings tip"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
                                         </div>
                                         <div class="amenities">
-                                            <p>3 lits • 2 chambre • 1,238 M <sup>2</sup></p>
-                                            <p>Villa</p>
+                                            <p>3 Lits • 2 Chambres • 1,238 m²</p>
+                                            <p>Maison unifamiliale</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1733,14 +1601,14 @@
                         </div>
                         <div class="widget widget-categories">
                             <div class="widget-top">
-                                <h3 class="widget-title">Catégories</h3>
+                                <h3 class="widget-title">Catégories de propriété</h3>
                             </div>
                             <div class="widget-body">
                                 <ul>
-                                    <li><a href="">Appartement</a> <span class="cat-count">(10)</span></li>
-                                    <li><a href="">Maison familiale</a> <span class="cat-count">(5)</span></li>
-                                    <li><a href="">Villa</a> <span class="cat-count">(6)</span></li>
-                                    <li><a href="">Studio</a> <span class="cat-count">(50)</span></li>
+                                    <li><a href="">Appartement</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Maison unifamiliale</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Villa</a> <span class="cat-count">(30)</span></li>
+                                    <li><a href="">Studio</a> <span class="cat-count">(30)</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -1756,7 +1624,7 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading"><a href="#">Propriété</a></h3>
+                                        <h3 class="media-heading"><a href="#">Titre de propriété</a></h3>
                                         <div class="rating">
                                             <span class="bottom-ratings"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
                                         </div>
@@ -1773,7 +1641,7 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading"><a href="#">Propriété</a></h3>
+                                        <h3 class="media-heading"><a href="#">Titre de propriété</a></h3>
                                         <div class="rating">
                                             <span class="bottom-ratings"><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span style="width: 70%" class="top-ratings"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
                                         </div>
@@ -1785,7 +1653,7 @@
                                 </div>
                             </div>
                         </div>
-<!--                        <div class="widget widget-login">
+                        <div class="widget widget-login">
                             <div class="widget-body">
                                 <ul class="login-tabs">
                                     <li class="active">Se connecter</li>
@@ -1797,10 +1665,10 @@
                                             <form>
                                                 <div class="form-group field-group">
                                                     <div class="input-user input-icon">
-                                                        <input placeholder="Nom d'utulisateur">
+                                                        <input placeholder="Nom d'utilisateur">
                                                     </div>
                                                     <div class="input-email input-icon">
-                                                        <input placeholder="Adresse é-mail">
+                                                        <input placeholder="Adresse e-mails">
                                                     </div>
                                                 </div>
                                                 <div class="forget-block clearfix">
@@ -1808,12 +1676,12 @@
                                                         <div class="checkbox">
                                                             <label>
                                                                 <input type="checkbox">
-                                                                Se souvenir de moi
+                                                                Se souvenir de moi 
                                                             </label>
                                                         </div>
                                                     </div>
                                                     <div class="form-group pull-right">
-                                                        <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#pop-reset-pass">Mots de passe oublié</a>
+                                                        <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#pop-reset-pass">Mots de passe oublié.</a>
                                                     </div>
                                                 </div>
 
@@ -1821,12 +1689,12 @@
                                             </form>
                                             <hr>
                                             <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
-                                      </div>
+                                        </div>
                                         <div class="tab-pane fade">
                                             <form>
                                                 <div class="form-group field-group">
                                                     <div class="input-user input-icon">
-                                                        <input placeholder="Nom d'tilisateur">
+                                                        <input placeholder="Nom d'utilisateur">
                                                     </div>
                                                     <div class="input-email input-icon">
                                                         <input placeholder="Adresse e-mail">
@@ -1837,23 +1705,23 @@
                                                         <div class="checkbox">
                                                             <label>
                                                                 <input type="checkbox">
-                                                                J'accepte vos
+                                                                J'accepte les
                                                             </label>
                                                         </div>
                                                     </div>
                                                     <div class="form-group pull-right">
-                                                        <a href="#">Terms & Conditions</a>
+                                                        <a href="#">Terms et Conditions</a>
                                                     </div>
                                                 </div>
                                                 <button class="btn btn-primary btn-block">Se connecter</button>
                                             </form>
                                             <hr>
-                                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i> Se connecter avec facebook</a>
-                                      </div>
+                                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>-->
+                        </div>
                         <div class="widget widget-logout">
                             <div class="widget-body">
                                 <div class="media">
@@ -1863,7 +1731,7 @@
                                         </div>
                                     </div>
                                     <div class="media-body v-align-middle">
-                                        <p>Hasina Rakotoniaina</p>
+                                        <p>Martin Moore</p>
                                         <a href="#">Se déconnecter</a>
                                     </div>
                                 </div>
@@ -1875,8 +1743,8 @@
         </div>
     </section>
     <!--end section page body-->
-	
-	 <!--start footer section-->
+
+     <!--start footer section-->
     <footer class="footer-v2">
         <div class="footer">
             <div class="container">
@@ -1899,7 +1767,7 @@
                             </div>
                             <div class="widget-body">
                                 <ul class="list-unstyled">
-                                    <li><i class="fa fa-location-arrow"></i>Mahamasinba</li>
+                                    <li><i class="fa fa-location-arrow"></i>Mahamasina</li>
                                     <li><i class="fa fa-phone"></i>+231 032 54 953 67 </li>
                                     <li><i class="fa fa-envelope-o"></i> <a href="#">info@mamaison.com</a></li>
                                 </ul>
@@ -1925,19 +1793,11 @@
                                         </div>
                                     </div>
                                 </form>
-                                <p>Ma Maison est un site immobilier.<br>N'oublié pas de nous suivre sur:</p>
+                                <p>Ma Maison est un site immobilier.
+                                    <br>N'oublié pas de nous suivre sur:</p>
                                 <ul class="social">
                                     <li>
                                         <a href="#" class="btn-facebook"><i class="fa fa-facebook-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="btn-twitter"><i class="fa fa-twitter-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="btn-google-plus"><i class="fa fa-google-plus-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -1982,14 +1842,15 @@
     <!--Start Scripts-->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-select.js"></script>
     <script type="text/javascript" src="js/jquery-ui.js"></script>
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
     <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
-    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>
